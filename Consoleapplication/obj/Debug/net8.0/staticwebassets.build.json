@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "RmFiu+XhdLiBWABjgXjFKCqhOd2cfD4mI4SNoUBmfgQ=",
+  "Source": "Consoleapplication",
+  "BasePath": "_content/Consoleapplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\019-Year4\\01-Semester1\\01-OOAD And Pro\\02-Asssignment\\Mywebapi\\Mywebapi.csproj",
+      "Version": 2,
+      "Source": "Mywebapi",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
