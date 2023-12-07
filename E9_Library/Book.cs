@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mywebapi.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -170,13 +171,20 @@ namespace E9_Library
                     // Retrieve updated data from text fields
                     string updatedTitle = titleTextBox.Text;
                     string updatedAuthor = authorTextBox.Text;
+                    string updatedCategoryId = categoryIdTextBox.Text;
 
                     // Create a new Book object with updated data
-                    var updatedBook = new Mywebapi.Models.Book
+                    var updatedBook = new 
                     {
-                        IBook = selectedBookId,
-                        Title = updatedTitle,
-                        Author = updatedAuthor
+                        IBook=selectedBookId,
+                        Title =updatedTitle ,
+                        Author = updatedAuthor,
+                        CategoryId = updatedCategoryId,
+                        Category = new
+                        {
+                            CategoryId = updatedCategoryId,
+                            CategoryName = "DummyCategory"
+                        }
                     };
 
                     // Call the API to update the selected book

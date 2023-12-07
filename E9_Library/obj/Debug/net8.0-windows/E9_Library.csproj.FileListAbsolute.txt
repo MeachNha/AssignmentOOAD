@@ -37,3 +37,4 @@ D:\019-Year4\01-Semester1\01-OOAD And Pro\02-Asssignment\E9_Library\obj\Debug\ne
 D:\019-Year4\01-Semester1\01-OOAD And Pro\02-Asssignment\E9_Library\obj\Debug\net8.0-windows\E9_Library.pdb
 D:\019-Year4\01-Semester1\01-OOAD And Pro\02-Asssignment\E9_Library\obj\Debug\net8.0-windows\E9_Library.genruntimeconfig.cache
 D:\019-Year4\01-Semester1\01-OOAD And Pro\02-Asssignment\E9_Library\obj\Debug\net8.0-windows\ref\E9_Library.dll
+D:\019-Year4\01-Semester1\01-OOAD And Pro\02-Asssignment\E9_Library\obj\Debug\net8.0-windows\E9_Library.sourcelink.json
